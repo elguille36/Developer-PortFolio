@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <link rel="shortcut icon" href="./Assets/img/Developer.png" type="image/x-icon">
+    <title>Developer Full-Stack</title>
+</head>
+<body>
+
+<div class="Layout-Principal">  
+  <header class="cabezalho"> 
+        <a href="#">
+            <img class="logo" src="./Assets/img/Developer.png" alt="Logo">
+        </a>
+        <h1 class="title">Developer Full-Stack</h1>
+    <nav class="nav">
+       <ul class="list-menu"> <!--List Desordenada-->
+         <li class="list-enlace"><a class="enlace-nav" href="#Sobre">Sobre Mi</a></li>
+         <li class="list-enlace"><a class="enlace-nav" href="#Service">Projetos</a></li>
+         <li class="list-enlace"><a class="enlace-nav" href="#Contato">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>  <!--Tag Principal da Estrutura-->
+    <section id="Sobre">  <!--Section-->
+        <article class="article-sobre-mi"> 
+             <div class="bem-vindo">
+                  <button class="btn" id="botao" type="button">Ocultar Bem-Vindo(a)</button>
+                  <p class="paragrafo" id="texto">
+                      Oi tudo bem? Bem-vindo(a) ao Meu Port-Folio,
+                      Apresento minha experincia como Desenvolvedor Full-Stack.! 
+                  </p>
+             </div>
+             <div class="Sobre-mi">
+                 <h2 class="sobre">Guillermo<span class="mi"> Perez</span></h2>
+                 <div class="sobre-mi-content">
+                     <img class="img-perfil" src="./Assets/img/foto perfil.jpg" alt="foto perfil">
+                     <div class="paragrafo-content">
+                        <p class="paragrafo1" id="paragrafo1">
+                       Sou um profissional com sólida experiência logística, atuando como Operador de Plataforma Logística, onde desenvolvi habilidades essenciais como organização,
+                        análise de processos, trabalho em equipe e resolução de problemas em ambientes dinâmicos.
+                        Atualmente, estou em transição de carreira para a área de tecnologia, com foco em Desenvolvimento Full-Stack.
+                        Tenho conhecimento em:
+                         <ul class="item-paragrafo">
+                         <li>HTML5</li>
+                         <li>CSS3</li>
+                         <li>React.js</li>
+                         <li>Node.js</li>
+                         <li>Express.js</li>
+                         <li>Sequelize ORM</li>
+                         <li>Banco de Dados e Análise de Dados</li>
+                         <li>MySQL</li>
+                         <li>SQL Server</li>
+                         <li>Power BI</li>
+                         </ul>
+                         </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section  id="Service">
+        <article class="article-content-projet">
+        <div class="box-content-projet">
+           <h2 class="title-projet">Meu Projetos</h2>
+        <figure class="figure-img">
+            <img class="img-projet" src="./Assets/img/github.png" alt="foto github">
+        <figcaption>Projetos em Repositorio Remotos Git/Hub</figcaption>
+        <a class="enlace-projet" href="" target="_blank">Click aqui</a>
+        </figure>
+        </div>
+        <div class="box-content-projet">
+            <h2 class="title-projet">Tecnologias</h2>
+            <figure class="figure-img">
+            <img class="img-projet1" src="./Assets/img/node.png" alt="">
+            <figcaption>Back-End</figcaption>
+            </figure> 
+        </div>
+        <div class="box-content-projet">
+            <h2 class="title-projet">Banco de Dados</h2>
+            <figure class="figure-img">
+            <img class="img-projet1" src="./Assets/img/SQL2.png" alt="">
+            <figcaption>Armazenamentos em Bancos Relacional</figcaption>
+            </figure>
+        </div>
+        </article>
+    </section>
+
+  </main> 
+</div> 
+
+<section class="contato-dark" id="Contato">
+  <h2 class="title-contato">Contate-me</h2>
+  <form class="form" action="https://formsubmit.co/geperezrsud@email.com " method="POST" id="formContato">
+    <input type="text" placeholder="Nome Completo" required>
+    <input type="email" placeholder="E-mail" required>
+    <textarea placeholder="mensagem" placeholder="Sua mensagem" required></textarea>
+    <input type="hidden" name="_next" value="https://yourdomain.co/Obrigado.html">
+    <button type="submit" class="btn-form" id="btn">Enviar</button>
+  </form>
+</section>
+
+<footer>
+<div class="footer">
+    <h6 class="pe-pagina">&copyProjetoToti-Turma56</h6>
+    <a href="#" >
+            <img class="logo-homepage" src="./Assets/img/Developer.png" alt="Logo">
+    </a>
+    
+
+</div>
+</footer><!--Pé de pagina-->
+ <script src="./Assets/js/main.js"></script>
+</body>
+</html>
