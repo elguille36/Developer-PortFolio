@@ -37,6 +37,11 @@ contenedor_projeto.forEach((divAtual) => {
 
 });
 
+document.getElementById("formContato").addEventListener("submit", function () {
+    document.getElementById("msg-sucesso").style.display = "block";
+    this.reset();
+});
+
 
 
 

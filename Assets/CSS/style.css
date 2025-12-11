@@ -11,6 +11,13 @@ body{
     background-color: #0a0908;
 }
 
+#msg-sucesso{
+
+    display:none; 
+    color:green; 
+    font-weight:bold;
+}
+
 .Layout-Principal{
  
     display:grid ;
