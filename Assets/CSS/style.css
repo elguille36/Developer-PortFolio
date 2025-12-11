@@ -399,5 +399,109 @@ figcaption{
     font-size: 1rem;
 }
 
+@media (max-width: 700px) {
+
+  .cabezalho {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .sobre,
+  .mi{
+
+    font-size: 1.5rem;
+  }
+
+  .list-menu {
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+
+  .logo,
+  .logo-homepage {
+    width: 15%;
+    position: static;
+    margin: 0 auto;
+  }
+
+  .Sobre-mi {
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .img-perfil {
+    width: 80%;
+    height: auto;
+    margin: 0 auto 20px auto;
+  }
+
+  .paragrafo-content {
+    padding: 0;
+  }
+
+  .article-content-projet {
+    flex-direction: column;
+    gap: 20px;
+    padding: 1rem;
+  }
+
+  .sobre-mi-content{
+
+    display: flex;
+    flex-flow: column;
+  }
+
+  .box-content-projet {
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+
+  .contato-dark {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .btn-form {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .footer {
+    height: auto;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .pe-pagina {
+    position: static;
+    margin-top: 1rem;
+  }
+
+  .redes {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    position: static;
+    margin: 1rem auto;
+  }
+
+  .redes-socias {
+    width: 1.5rem;
+  }
+}
+
 
 
