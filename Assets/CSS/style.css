@@ -417,12 +417,6 @@ figcaption{
     width: 100%;
   }
 
-  .sobre,
-  .mi{
-
-    font-size: 1.5rem;
-  }
-
   .list-menu {
     width: 100%;
     justify-content: space-around;
@@ -464,6 +458,12 @@ figcaption{
     flex-flow: column;
   }
 
+  .box-content-projet,
+  .mi{
+
+    font-size: 1.5rem;
+  }
+
   .box-content-projet {
     width: 90%;
     height: auto;
@@ -501,6 +501,15 @@ figcaption{
 
   .redes-socias {
     width: 1.5rem;
+  }
+}
+
+@media (mix-width:1200px){
+
+    .sobre,
+  .mi{
+
+    font-size: 3.5rem;
   }
 }
 
